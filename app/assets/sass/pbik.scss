@@ -1,0 +1,61 @@
+.actions {
+  margin: $gutter 0;
+
+  button {
+    display: block;
+    margin-bottom: $gutter-half;
+  }
+
+  a {
+    display: inline-block;
+  }
+}
+
+.list-bullet {
+  margin-bottom: $gutter;
+}
+
+.support-link {
+  a, a:link, a:visited {
+    color: $secondary-text-colour;
+  }
+}
+
+.benefits-table {
+  display: block;
+  padding-bottom: 1em;
+
+  .benefit-or-expense {
+    width: 75%;
+  }
+
+  .p11d-section {
+    width: 25%;
+  }
+
+  td, th {
+    vertical-align: top;
+  }
+
+  .checkbox-indent {
+    @include media('tablet') {
+      display: block;
+      width: 1.5em;
+      height: 1.5em;
+      padding: 0 0.5em;
+
+      float: left;
+    }
+  }
+
+  .form-hint {
+    @include core-16;
+    @include media('tablet') {
+      margin: 0.5em 0 0 2.5em;
+    }
+  }
+
+  .no-checkbox {
+
+  }
+}
