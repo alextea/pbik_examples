@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Confirmation page example
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <div class="govuk-box-highlight">
+        <h1 class="bold-large">Benefits registered</h1>
+
+        <p>You've registered to tax these benefits and expenses through your payroll from 6 April 2016.</p>
+      </div>
+
+      <table class="check-your-answers">
+        <thead>
+          <tr>
+            <th>
+
+                Registered benefits and expenses
+
+            </th>
+            <th>
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              Assets placed at the employee's disposal
+            </td>
+            <td class="change-answer">
+              &nbsp;
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Car and car fuel
+            </td>
+            <td class="change-answer">
+              &nbsp;
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 class="heading-medium">Next steps</h2>
+
+      <p>Set up your payroll to include the beenfits or expenses in your employees' pay.</p>
+
+      <p>Tell your employees that their tax codes will change accordingly.</p>
+
+      <p>For tax year 2016 to 2017 onwards you'll no longer need to <a href="#">submit a P11D</a> for benefits and expenses you've told HMRC you're payrolling.</p>
+
+      <p>You still need to <a href="#">report Class 1A National Insurance contributions on a P11D(b)</a>.</p>
+
+      <div class="actions">
+        <a href="#">Back to overview</a>
+      </div>
+
+    </div>
+  </div>
+
+</main>
+
+{% endblock %}
